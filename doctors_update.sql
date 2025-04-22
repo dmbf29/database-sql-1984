@@ -1,0 +1,44 @@
+-- UPDATE doctors SET first_name = 'Kae', last_name = 'Chen' WHERE id = 1;
+-- UPDATE doctors SET first_name = 'Hikari', last_name = 'Hashiguchi' WHERE id = 2;
+-- UPDATE doctors SET first_name = 'Jairo', last_name = 'Hurtado' WHERE id = 3;
+-- UPDATE doctors SET first_name = 'Tsering', last_name = 'Lama' WHERE id = 4;
+-- UPDATE doctors SET first_name = 'Saulo', last_name = 'Leal' WHERE id = 5;
+-- UPDATE doctors SET first_name = 'Kaho', last_name = 'Maeda' WHERE id = 6;
+-- INSERT INTO doctors (first_name, last_name, age, specialty)
+-- VALUES ('Hayao', 'Mori', 49, 'Generalist');
+-- INSERT INTO doctors (first_name, last_name, age, specialty)
+-- VALUES ('Owen', 'Newsome', 39, 'Pediatrics');
+-- INSERT INTO doctors (first_name, last_name, age, specialty)
+-- VALUES ('Naw', 'San', 29, 'Dentistry');
+-- INSERT INTO doctors (first_name, last_name, age, specialty)
+-- VALUES ('Julian', 'Schoenfeld', 19, 'Cardiac Surgery');
+-- INSERT INTO doctors (first_name, last_name, age, specialty)
+-- VALUES ('Will', 'Sebastian', 25, 'Cardiac Surgery');
+-- INSERT INTO doctors (first_name, last_name, age, specialty)
+-- VALUES ('Nathaniel', 'Smith', 23, 'Surgery Supervisor');
+
+
+-- UPDATE patients SET first_name = 'Shunji', last_name = 'Sugaya' WHERE id = 1;
+-- UPDATE patients SET first_name = 'Max', last_name = 'Thomson' WHERE id = 2;
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Ryan', 'Ward', 23);
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Yann', 'Klein', 23);
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Celso', 'Yamashita', 45);
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Aya', 'Fujita', 25);
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Gary', 'Yau', 35);
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Doug', 'Berkley', 28);
+-- INSERT INTO patients (first_name, last_name, age)
+-- VALUES ('Noemi', 'Ashizuka', 28);
+-- INSERT INTO appointments (occurs_on, patient_id, doctor_id)
+-- VALUES ('2025-01-18', 3, 4);
+-- INSERT INTO appointments (occurs_on, patient_id, doctor_id)
+-- VALUES ('2025-01-18', 4, 4);
+-- INSERT INTO appointments (occurs_on, patient_id, doctor_id)
+-- VALUES ('2025-01-22', 5, 3);
+-- INSERT INTO appointments (occurs_on, patient_id, doctor_id)
+-- VALUES ('2025-01-22', 3, 3);
